@@ -1,0 +1,27 @@
+$border: .2rem dashed lightgrey;
+
+@media (min-width: 0px) {
+  .game {
+    border-bottom: $border
+  }
+
+  body {
+    font-weight:bold;
+  }
+
+  .logo {
+    max-width: 6rem;
+  }
+}
+
+@media (min-width:768px) {
+  .logo {
+    max-width: 8rem;
+  }
+}
+
+@media (min-width:992px) {
+  // body {
+  //   font-size:1.9rem;
+  // }
+}

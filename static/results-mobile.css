@@ -1,0 +1,20 @@
+@media (min-width: 0px) {
+  .game {
+    border-bottom: 0.2rem dashed lightgrey;
+  }
+
+  body {
+    font-weight: bold;
+  }
+
+  .logo {
+    max-width: 6rem;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    max-width: 8rem;
+  }
+}
+
+/*# sourceMappingURL=results-mobile.css.map */
